@@ -1,0 +1,235 @@
+.lateral {
+  padding: 1rem;
+  background-color: #fff;
+  color: #787878;
+  text-align: center;
+  // display: flex;
+  // justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.avatarBlock {
+  max-width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// .iconProfile {
+//   font-size: $l-size;
+// }
+
+.numberCircle {
+  width: 15px;
+  height: 15px;
+  box-sizing: initial;
+  position: absolute;
+  margin-left: 1.3rem;
+  margin-top: -0.5rem;
+
+  background: #fff;
+  border: 0.1em solid $red;
+  color: $red;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 50%;
+
+  line-height: 1.5em;
+  box-sizing: content-box;
+  float: right;
+}
+
+.onlineUsers,
+.offlineUsers {
+  margin-right: 0.5rem;
+  margin-top: 0.2rem;
+  width: 10px;
+  height: 10px;
+  box-sizing: initial;
+  border-radius: 50%;
+}
+
+.onlineUsers {
+  background: green;
+}
+
+.connexionInfo {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.offlineUsers {
+  background: gray;
+}
+
+.btn .fa {
+  font-size: $l-size;
+}
+
+.lateralIcons {
+  font-size: $l-size;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.iconsButton {
+  font-size: $l-size;
+  border-radius: 50%;
+}
+
+.col-4 {
+  border-right: 2px solid $coral;
+  overflow: auto;
+  // position: fixed;
+  top: 70px;
+}
+
+.tagIntro {
+  font-weight: 400;
+  text-align: center;
+  margin-top: $m-size;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  max-width: 60%;
+  padding: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+  #lateralScroll {
+    width: 100%;
+  }
+  .lateral {
+    width: 100%;
+  }
+  .col-4 {
+    min-width: 100% !important;
+    overflow: scroll;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+  }
+  .avatarBlock {
+    max-width: 50%;
+  }
+  .tagIntro {
+    font-weight: 400;
+    text-align: center;
+    margin-top: $m-size;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    max-width: 100%;
+    padding: 15px;
+  }
+  .iconsButtonPreview {
+    display: inline-block !important;
+    font-size: $l-size;
+    border-radius: 50%;
+  }
+}
+
+.iconsButtonPreview {
+  display: none;
+}
+
+.userProfileSettings {
+  max-width: 100%;
+  margin-top: 32px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.profilePreview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  // position: fixed;
+  // margin-right:0;
+}
+
+.publicProfilePreview {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  max-height: 100%;
+  margin-top: 10vh;
+}
+
+.profile-preview-page {
+  margin-top: 100px;
+  max-width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1000px) {
+  .profilePreview {
+    display: none;
+  }
+  .profile-preview-page {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+  }
+  .publicProfilePreview {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+}
+
+.cardElementProfile {
+  z-index: -1000;
+}
+
+.profile-preview-container {
+  max-width: 100%;
+}
+
+.ant-card.ant-card-bordered.ant-card-hoverable {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slider-wrapper-profile {
+  margin-bottom: $m-size;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  height: 30vh;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.slider-content-profile {
+  max-height: 40vh;
+  max-width: 100%;
+}
+
+.profilePic {
+  max-height: auto;
+  // object-fit: contain;
+}
+
+.lateralScrollProfile {
+  height: 100vh;
+  // margin-top: 10rem;
+  // display: flex;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  // justify-content: center;
+  // margin-bottom: 10rem;
+  // overflow: scroll;
+  // overflow-x: hidden;
+}

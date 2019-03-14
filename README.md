@@ -6,10 +6,9 @@ It's the second web project of 42 School and I realized it with @dcirlig.
 Don't hesitate to contact me if you have any question!
 
 # FEATURES
-<p align="center">
-  ![Homepage](../master/Previews/Homepage.png)
-Homepage with a slider representing our App philosophy.
-</p>
+![Homepage](../master/Previews/Homepage.png)
+<p align="center">Homepage with a slider representing our App philosophy.</p>
+
 
 ![Signin](../master/Previews/Sign-in.png)
 <p align="center">Sign-in page.</p>

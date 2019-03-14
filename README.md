@@ -6,8 +6,10 @@ It's the second web project of 42 School and I realized it with @dcirlig.
 Don't hesitate to contact me if you have any question!
 
 # FEATURES
-<p align="center">![Homepage](../master/Previews/Homepage.png)</p>
-<p align="center">Homepage with a slider representing our App philosophy.</p>
+<p align="center">
+  ![Homepage](../master/Previews/Homepage.png)
+Homepage with a slider representing our App philosophy.
+</p>
 
 ![Signin](../master/Previews/Sign-in.png)
 <p align="center">Sign-in page.</p>
@@ -21,7 +23,7 @@ Don't hesitate to contact me if you have any question!
 ![Social](../master/Previews/profiles_explorer.png)
 <p align="center">In this section, you will only find people that share your interests, your location and your preferences. You can like them, block them or report them as fake users, see if one person is online, and explore while waiting for a match!</p>
 
-<p align="center">![Interactions](../master/Previews/public_profile.png)</p>
+![Interactions](../master/Previews/public_profile.png)
 <p align="center">Every Matcha user has a public profile that you can consult if you're logged in.</p>
 
 ![trending](../master/Previews/chat_page.png)

@@ -6,6 +6,12 @@ It's the second web project of 42 School and I realized it with @dcirlig.
 Don't hesitate to contact me if you have any question!
 
 # FEATURES
+Node version :
+Clone the project and run "npm run server" in root folder.
+Then, in another terminal, run "npm run client".
+In your browser, access https://localhost:4000/ and https://localhost:8081/. Choose to open the websites even with the security alert (https self signed certificate).
+
+# FEATURES
 ![Homepage](../master/Previews/Homepage.png)
 <p align="center">Homepage with a slider representing our App philosophy.</p>
 

@@ -3,8 +3,8 @@ var fakeUsers = require("./fakeUsers");
 
 var con = mysql.createConnection({
   host: "localhost",
-  user: "rootnode",
-  password: "rootnode"
+  user: "root",
+  password: "root"
 });
 
 con.connect(function (err) {
@@ -16,8 +16,8 @@ con.connect(function (err) {
 
     con = mysql.createConnection({
       host: "localhost",
-      user: "rootnode",
-      password: "rootnode",
+      user: "root",
+      password: "root",
       database: "db_matcha"
     });
 

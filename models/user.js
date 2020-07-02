@@ -19,7 +19,7 @@ function findOne(field, userData, callback) {
   sql = "SELECT " + field + " FROM users WHERE " + field + "= ?";
   connection.query(sql, userData, function(err, result) {
     if (err) console.log(err);
-    if (result.length > 0) find = 1;
+    if (result && result.length > 0) find = 1;
     else find = 0;
     return callback(find);
   });

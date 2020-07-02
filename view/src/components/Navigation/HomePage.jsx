@@ -27,7 +27,7 @@ const content = [
     title: "Have a good time",
     description: "People close to you and close to what you love",
     image:
-      "https://www.chepstow-racecourse.co.uk/images/upload/xmas-party-50-50.jpg",
+      "https://c.stocksy.com/a/zBG900/z9/2207199.jpg",
     button: "Sign In",
     link: routes.SIGN_IN
   }

@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cc19c019.chunk.css",
+    "main.js": "/static/js/main.ce89822c.chunk.js",
+    "main.js.map": "/static/js/main.ce89822c.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.d9c5e9dc.js",
+    "runtime~main.js.map": "/static/js/runtime~main.d9c5e9dc.js.map",
+    "static/css/2.1958cd9f.chunk.css": "/static/css/2.1958cd9f.chunk.css",
+    "static/js/2.ba525006.chunk.js": "/static/js/2.ba525006.chunk.js",
+    "static/js/2.ba525006.chunk.js.map": "/static/js/2.ba525006.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.14c7c762e10f094621de0db26fcea41c.js": "/precache-manifest.14c7c762e10f094621de0db26fcea41c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.1958cd9f.chunk.css.map": "/static/css/2.1958cd9f.chunk.css.map",
+    "static/css/main.cc19c019.chunk.css.map": "/static/css/main.cc19c019.chunk.css.map",
+    "static/media/mdb.css": "/static/media/arrow_right.8ef6a08c.svg",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.fee66e71.woff",
+    "static/media/matcha_logo_full.png": "/static/media/matcha_logo_full.f00888b7.png"
+  }
+}

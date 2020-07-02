@@ -1,6 +1,6 @@
 .slider-wrapper {
     position: relative;
-    height: 70vh;
+    height: 100vh;
     overflow: hidden;
   }
   
@@ -68,7 +68,7 @@
     top: 50%;
     transform: translateY(-50%);
     z-index: 10;
-    background: url(../images/arrow.png) no-repeat center center /
+    background: url(../../images/arrow.png) no-repeat center center /
       24px;
     width: 32px;
     height: 32px;
@@ -78,7 +78,7 @@
   
   .previousButton:hover,
   .nextButton:hover {
-    background: url(../images/arrow.png) no-repeat center center /
+    background: url(../../images/arrow.png) no-repeat center center /
       28px;
     padding: 25px 25px 25px 25px;
   }

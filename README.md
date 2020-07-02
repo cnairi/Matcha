@@ -5,10 +5,13 @@ It's the second web project of 42 School and I realized it with @dcirlig.
 
 Don't hesitate to contact me if you have any question!
 
-# FEATURES
-Node version :
-Clone the project and run "npm run server" in root folder.
-Then, in another terminal, run "npm run client".
+# INSTALL
+Node version :13.12.0
+Clone the project.
+Init database : cd database => node database.js (replace the credentials with your own phpmyadmin ones).
+
+Start server : "npm run server" in root folder.
+Start client : run "npm run client".
 In your browser, access https://localhost:4000/ and https://localhost:8081/. Choose to open the websites even with the security alert (https self signed certificate).
 
 # FEATURES
